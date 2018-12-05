@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  background: url("../Images/limoncello.jpg");
+  background: url("img_td/limoncello.jpg");
   background-size: auto;
   margin: 0;
   padding: 0;
@@ -53,14 +53,14 @@ body {
 }
 
 * {
-  cursor: url("../Images/mouse-arrow.png"), pointer;
+  cursor: url("img_td/mouse-arrow.png"), pointer;
 }
 
 #scroll {
   position: fixed;
   right: 2px;
   bottom: 10px;
-  cursor: url("../Images/mouse-arrow.png"), pointer;
+  cursor: url("img_td/mouse-arrow.png"), pointer;
   width: 45px;
   height: 45px;
   background-color: #ffca44;

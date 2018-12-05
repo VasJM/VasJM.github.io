@@ -3,7 +3,7 @@
 }
 
 * {
-  cursor: url("../Images/mouse-arrow.png"), pointer;
+  cursor: url("img_contact/mouse-arrow.png"), pointer;
 }
 
 .fade-in {
@@ -48,7 +48,7 @@
 }
 
 body {
-  background-image: url("../Images/lemongrove.jpg");
+  background-image: url("img_contact/lemongrove.jpg");
 }
 
 img.home {
@@ -184,7 +184,7 @@ img.home:hover {
 }
 
 .form [required] {
-  background: url("../Images/required.svg") no-repeat top right;
+  background: url("img_contact/required.svg") no-repeat top right;
 }
 
 @media only screen and (min-width: 600px) {
@@ -224,27 +224,27 @@ img.home:hover {
 }
 
 .form .user {
-  background: url("../Images/avatar.png") no-repeat 16px center;
+  background: url("img_contact/avatar.png") no-repeat 16px center;
 }
 
 .form [required].user {
-  background: url("../Images/avatar.png") no-repeat 16px center, url("../Images/required.svg") no-repeat top right;
+  background: url("img_contact/avatar.png") no-repeat 16px center, url("img_contact/required.svg") no-repeat top right;
 }
 
 .form .email {
-  background: url("../Images/envelope.png") no-repeat 16px center;
+  background: url("img_contact/envelope.png") no-repeat 16px center;
 }
 
 .form [required].email {
-  background: url("../Images/envelope.png") no-repeat 16px center, url("../Images/required.svg") no-repeat top right;
+  background: url("img_contact/envelope.png") no-repeat 16px center, url("img_contact/required.svg") no-repeat top right;
 }
 
 .form .message {
-  background: url("../Images/edit.png") no-repeat 16px 16px;
+  background: url("img_contact/edit.png") no-repeat 16px 16px;
 }
 
 .form [required].message {
-  background: url("../Images/edit.png") no-repeat 16px 16px, url("../Images/required.svg") no-repeat top right;
+  background: url("img_contact/edit.png") no-repeat 16px 16px, url("img_contact/required.svg") no-repeat top right;
 }
 
 .js .floating-labels div {
