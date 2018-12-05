@@ -1,0 +1,257 @@
+* {
+  cursor: url("../Images/mouse-arrow.png"), pointer;
+}
+
+input, textarea {
+  font-family: "Unica One", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+}
+
+input[type=email]::-ms-clear {
+  display: none;
+}
+
+input[type=submit] {
+  appearance: none;
+}
+
+input[type=radio] {
+  opacity: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-wrapper {
+  position: relative;
+  padding-top: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-wrapper {
+    padding-top: 100px;
+  }
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: #34c4ad;
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    height: 180px;
+  }
+}
+
+.form .loading {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3%;
+  width: 100%;
+  background-color: #260209;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  visibility: hidden;
+  transition: transform 3s;
+  z-index: 3;
+}
+
+.no-csstransitions .form .loading {
+  display: none;
+}
+
+.form.is-submitted .loading {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.email, .submit {
+  position: absolute;
+}
+
+.email, .submit {
+  width: 100%;
+  bottom: 0;
+}
+
+.email:focus, .submit:focus {
+  outline: none;
+}
+
+.email {
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: transparent;
+  padding-left: 18px;
+  font-weight: 300;
+  color: #101010;
+  transition: height 0.3s, background-color 0.3s;
+  z-index: 1;
+}
+
+.email::-webkit-input-placeholder {
+  color: #101010;
+}
+
+.is-active .email {
+  height: 50%;
+}
+
+.email:focus {
+  background-color: #ffca44;
+}
+
+@media only screen and (min-width: 768px) {
+  .email {
+    padding-left: 40px;
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+
+.submit {
+  top: 50%;
+  background-color: #ff7675;
+  color: #101010;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s;
+  z-index: 2;
+  line-height: 50px;
+}
+
+.is-active .submit {
+  display: block;
+  animation: bounce-in ease-out 0.4s;
+}
+
+.no-touch .submit:hover, .submit:focus {
+  background-color: #ff5957;
+}
+
+@media only screen and (min-width: 768px) {
+  .submit {
+    line-height: 90px;
+    font-size: 16px;
+  }
+}
+
+@-webkit-keyframes bounce-in {
+  0% {
+    top: 100%;
+  }
+
+  60% {
+    top: 45%;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
+
+@-moz-keyframes bounce-in {
+  0% {
+    top: 100%;
+  }
+
+  60% {
+    top: 45%;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    top: 100%;
+  }
+
+  60% {
+    top: 45%;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
+
+.response {
+  position: absolute;
+  bottom: 110%;
+  left: 0;
+  padding: 1.4em;
+  color: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  z-index: 3;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: transform 0.3s 0s, opacity 0.3s 0s, visibility 0s .3s;
+}
+
+.response-success {
+  font-family: 'Unica One', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  background-color: #035c58;
+  transform-origin: 50% 100%;
+  transform: scaleY(0);
+  visibility: hidden;
+  transition: transform .3s 0s, visibility 0s .3s;
+  z-index: 3;
+}
+
+.response-success p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s 0s;
+}
+
+.response-success.slide-in {
+  visibility: visible;
+  transform: scaleY(1);
+  transition: transform .3s 0s, visibility 0s 0s;
+}
+
+.response-success.slide-in p {
+  opacity: 1;
+  transition: opacity 0.3s 0.3s;
+}

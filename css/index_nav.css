@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  cursor: url("../Images/mouse-arrow.png"), pointer;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: -webkit-linear-gradient(top, rgba(33, 33, 33, 1), rgba(33, 33, 33, .9));
+  z-index: 100;
+}
+
+nav {
+  padding: 8px;
+  z-index: 100;
+}
+
+.fas {
+  display: none;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 55px;
+  width: auto;
+  border-radius: 40px;
+  margin-top: 6px;
+}
+
+.logo img:hover {
+  transform: rotate(360deg);
+  transition: .8s;
+}
+
+.site-nav ul {
+  text-align: center;
+}
+
+.site-nav ul li {
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.site-nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  color: #34c4ad;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.site-nav ul li a:hover {
+  text-decoration: none;
+  background: #34c4ad;
+  transition: .5s;
+  color: #000;
+}
+
+@media (max-width: 800px) {
+  .nav-tab {
+    display: none;
+  }
+
+  .fas {
+    display: inline;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .site-nav ul li a:hover {
+    background: none;
+    color: #34c4ad;
+  }
+
+  .fas:hover {
+    background: none;
+    color: #e65857;
+  }
+
+  .logo {
+    display: none;
+  }
+}

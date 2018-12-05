@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!--font links-->
+      <link rel="stylesheet" type="text/css" href="css/td_style.css">
+      <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+      <!--main header-->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <!--card title-->
+      <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+      <!--card info-->
+    <!--end-->
+
+    <title>Tarot Database</title>
+
+    <!--CSS files, jQuery and Masonry-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://static.tumblr.com/xd6ujov/9Rpouml9f/imagesloaded.pkgd.min.js"></script>
+      <script src="https://static.tumblr.com/f6blkfc/3khouzw5b/masonry.pkgd.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.1/SmoothScroll.min.js"></script>
+    <!--end-->
+
+    <!--favicon-->
+      <link rel="shortcut icon" type="image/ico" href="Icons/favicon.ico" />
+    <!--end-->
+
+  </head>
+
+  <body class="fade-in">
+    <a id="scroll">Top<span class="top"></span></a>
+
+    <a id="home" href="C:\Users\Vasundhara\Desktop\HEKATE\Main\index.html">
+      <span class="tooltip" data-title="Home">
+        <img class="home" src="Images/home.png">
+      </span>
+    </a>
+
+    <div>
+      <header>
+        <ul class="nav">
+          <li class="button selected" filter="item">
+            <span class="tooltip" data-title="Show All">
+              <img class="icon" src="Icons/magic-ball.png">
+            </span>
+          </li>
+
+          <li class="button" filter="filter0">
+            <span class="tooltip" data-title="Major Arcana">
+              <img class="icon" src="Icons/crown.png">
+            </span>
+          </li>
+
+          <li class="button" filter="filter3">
+            <span class="tooltip" data-title="Suit of Swords">
+              <img class="icon" src="Icons/swords.png">
+            </span>
+          </li>
+
+          <li class="button" filter="filter4">
+            <span class="tooltip" data-title="Suit of Wands">
+              <img class="icon" src="Icons/magic-wand.png">
+            </span>
+          </li>
+
+          <li class="button" filter="filter1">
+            <span class="tooltip" data-title="Suit of Cups">
+              <img class="icon" src="Icons/chalice.png">
+            </span>
+          </li>
+
+          <li class="button" filter="filter2">
+            <span class="tooltip" data-title="Suit of Pentacles">
+              <img class="icon" src="Icons/star.png">
+            </span>
+          </li>
+        </ul>
+      </header>
+      <!--Filter Icons!-->
+
+      <div class="grid">
+        <!--Major Arcana START-->
+        <div class="MJR">
+          <div class="item filter0"><img class="tarot" src="GTT/0.png">
+            <p>
+              <span class="H">THE FOOL</span><br />
+              <span class="M1">Upright</span><br />
+              Innocence, New Beginnings, free Spirit
+              <br />
+              <span class="M2">Reversed</span><br />
+              Recklessness, Taken Advantage Of, Inconsideration
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/1.png">
+            <p>
+              <span class="H">THE MAGICIAN</span><br />
+              <span class="M1">Upright</span><br />
+              Willpower, Desire, Creation, Manifestation
+              <br />
+              <span class="M2">Reversed</span><br />
+              Trickery, Illusions, Out Of Touch
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/2.png">
+            <p>
+              <span class="H">HIGH PRIESTESS</span><br />
+              <span class="M1">Upright</span><br />
+              Intuitive, Unconcious, Inner Voice
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Center, Lost Inner Voice, Repressed Feelings
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/3.png">
+            <p>
+              <span class="H">THE EMPRESS</span><br />
+              <span class="M1">Upright</span><br />
+              Motherhood, Fertility, Nature
+              <br />
+              <span class="M2">Reversed</span><br />
+              Dependence, Smothering, Emptiness, Nosiness
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/4.png">
+            <p>
+              <span class="H">THE EMPEROR</span><br />
+              <span class="M1">Upright</span><br />
+              Authority, Structure, Control, Fatherhood
+              <br />
+              <span class="M2">Reversed</span><br />
+              Tyranny, Rigidity, Coldness
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/5.png">
+            <p>
+              <span class="H">HIEROPHANT</span><br />
+              <span class="M1">Upright</span><br />
+              Tradition, Conformity, Morality, Ethics
+              <br />
+              <span class="M2">Reversed</span><br />
+              Rebellion, Subversiveness, New Approaches
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/6.png">
+            <p>
+              <span class="H">THE LOVERS</span><br />
+              <span class="M1">Upright</span><br />
+              Partnerships, Duality, Union
+              <br />
+              <span class="M2">Reversed</span><br />
+              Loss Of Balance, One-Sidedness, Disharmony
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/7.png">
+            <p>
+              <span class="H">THE CHARIOT</span><br />
+              <span class="M1">Upright</span><br />
+              Direction, Control, Willpower
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Control, Lack Of Direction, Aggresion
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/8.png">
+            <p>
+              <span class="H">STRENGTH</span><br />
+              <span class="M1">Upright</span><br />
+              Inner Strength, Bravery, Compassion, Focus
+              <br />
+              <span class="M2">Reversed</span><br />
+              Self-Doubt, Weakness, Insecurity
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/9.png">
+            <p>
+              <span class="H">THE HERMIT</span><br />
+              <span class="M1">Upright</span><br />
+              Contemplation, Search For Truth, Inner Guidance
+              <br />
+              <span class="M2">Reversed</span><br />
+              Loneliness, Isolation, Lost Your Way
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/10.png">
+            <p>
+              <span class="H">WHEEL OF FORTUNE</span><br />
+              <span class="M1">Upright</span><br />
+              Change, Cycles, Inevitable Fate
+              <br />
+              <span class="M2">Reversed</span><br />
+              No Control, Clinging To Control, Bad Luck
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/11.png">
+            <p>
+              <span class="H">JUSTICE</span><br />
+              <span class="M1">Upright</span><br />
+              Cause and Effect, Clarity, Truth
+              <br />
+              <span class="M2">Reversed</span><br />
+              Dishonesty, Unaccountability, Unfairness
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/12.png">
+            <p>
+              <span class="H">HANGED MAN</span><br />
+              <span class="M1">Upright</span><br />
+              Sacrifice, Release, Martyrdom
+              <br />
+              <span class="M2">Reversed</span><br />
+              Stalling, Needless Sacrifice, Fear Of Sacrifice
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/13.png">
+            <p>
+              <span class="H">DEATH</span><br />
+              <span class="M1">Upright</span><br />
+              End Of Cycle, Beginnings, Change, Metamorphosis
+              <br />
+              <span class="M2">Reversed</span><br />
+              Fear Of Change, Holding On, Stagnation, Decay
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/14.png">
+            <p>
+              <span class="H">TEMPERANCE</span><br />
+              <span class="M1">Upright</span><br />
+              Middle Path, Patience, Finding Meaning
+              <br />
+              <span class="M2">Reversed</span><br />
+              Extremes, Excess, Lack Of Balance
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/15.png">
+            <p>
+              <span class="H">THE DEVIL</span><br />
+              <span class="M1">Upright</span><br />
+              Addiction, Materialism, Playfulness
+              <br />
+              <span class="M2">Reversed</span><br />
+              Freedom, Release, Restoring Control
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/16.png">
+            <p>
+              <span class="H">THE TOWER</span><br />
+              <span class="M1">Upright</span><br />
+              Sudden Upheaval, Broken Pride, Disaster
+              <br />
+              <span class="M2">Reversed</span><br />
+              Disaster Avoided, Delayed Disaster, Fear Of Suffering
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/17.png">
+            <p>
+              <span class="H">THE STAR</span><br />
+              <span class="M1">Upright</span><br />
+              Hope, Faith, Rejuvination
+              <br />
+              <span class="M2">Reversed</span><br />
+              Fathlessness, Discouragement, Insecurity
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/18.png">
+            <p>
+              <span class="H">THE MOON</span><br />
+              <span class="M1">Upright</span><br />
+              Unconcious, Illusions, Intuition
+              <br />
+              <span class="M2">Reversed</span><br />
+              Confusion, Fear, Misinterpretation
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/19.png">
+            <p>
+              <span class="H">THE SUN</span><br />
+              <span class="M1">Upright</span><br />
+              Joy, Success, Celebration, Positivity
+              <br />
+              <span class="M2">Reversed</span><br />
+              Negativity, Depression, Sadness
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/20.png">
+            <p>
+              <span class="H">JUDGEMENT</span><br />
+              <span class="M1">Upright</span><br />
+              Reflection, Reckoning, Awakening
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Self Awareness, Doubt, Self Loathing
+            </p>
+          </div>
+          <div class="item filter0"><img class="tarot" src="GTT/21.png">
+            <p>
+              <span class="H">THE WORLD</span><br />
+              <span class="M1">Upright</span><br />
+              Fulfillment, Harmony, Completion
+              <br />
+              <span class="M2">Reversed</span><br />
+              Incompletion, No Closure
+            </p>
+          </div>
+        </div>
+        <!--Major Arcana END-->
+
+        <!--Sword START -->
+        <div class="SWORDS">
+          <div class="item filter1"><img class="tarot" src="GTT/22.png">
+            <p>
+              <span class="H">KING OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Compassion, Control, Balance
+              <br />
+              <span class="M2">Reversed</span><br />
+              Coldness, Moodiness, Bad Advice
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/23.png">
+            <p>
+              <span class="H">QUEEN OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Compassion, Calm, Comfort
+              <br />
+              <span class="M2">Reversed</span><br />
+              Martyrdom, Insecurity, Dependence
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/24.png">
+            <p>
+              <span class="H">KNIGHT OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Following The Heart, Idealist, Romantic
+              <br />
+              <span class="M2">Reversed</span><br />
+              Moodiness, Disappointment
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/25.png">
+            <p>
+              <span class="H">PAGE OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Happy Surprise, Dreamer, Sensitivity
+              <br />
+              <span class="M2">Reversed</span><br />
+              Emotional Immaturity, Insecurity, Disappointment
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/26.png">
+            <p>
+              <span class="H">X OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Inner Happiness, Fulfillment, Dreams Coming True
+              <br />
+              <span class="M2">Reversed</span><br />
+              Shattered Dreams, Broken Family, Domestic Disharmony
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/27.png">
+            <p>
+              <span class="H">IX OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Satisfaction, Emotional Stability, Luxury
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Inner Joy, Smugness, Dissatisfaction
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/28.png">
+            <p>
+              <span class="H">VIII OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Walking Away, Disillusionment, Leaving Behind
+              <br />
+              <span class="M2">Reversed</span><br />
+              Avoidance, Fear Of Change, Fear Of Loss
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/29.png">
+            <p>
+              <span class="H">VII OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Searching For Purpose, Choice, Daydreaming
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Purpose, Diversion, Confusion
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/30.png">
+            <p>
+              <span class="H">VI OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Familiarity, Happy Memories, Healing
+              <br />
+              <span class="M2">Reversed</span><br />
+              Moving Forward, Leaving Home, Independence
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/31.png">
+            <p>
+              <span class="H">V OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Loss, Grief, self-Pity
+              <br />
+              <span class="M2">Reversed</span><br />
+              Acceptance, Moving On, Finding Peace
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/32.png">
+            <p>
+              <span class="H">IV OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Apathy, Contemplation, Disconnectedness
+              <br />
+              <span class="M2">Reversed</span><br />
+              Sudden Awareness, Choosing Happiness, Acceptance
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/33.png">
+            <p>
+              <span class="H">III OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Friendship, Community, Happiness
+              <br />
+              <span class="M2">Reversed</span><br />
+              Overindulgence, Gossip, Isolation
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/34.png">
+            <p>
+              <span class="H">II OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              Unity, Partnership, Connection
+              <br />
+              <span class="M2">Reversed</span><br />
+              Imbalance, Broken, Tension
+            </p>
+          </div>
+          <div class="item filter1"><img class="tarot" src="GTT/35.png">
+            <p>
+              <span class="H">ACE OF CUPS</span><br />
+              <span class="M1">Upright</span><br />
+              New Feelings, Spirituality, Intuition
+              <br />
+              <span class="M2">Reversed</span><br />
+              Emotional Loss, Blocked Creativity, Emptiness
+            </p>
+          </div>
+        </div>
+        <!--Sword END-->
+
+        <!--Wand START-->
+        <div class="WANDS">
+          <div class="item filter2"><img class="tarot" src="GTT/36.png">
+            <p>
+              <span class="H">KING OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Abundance, Prosperity, Security
+              <br />
+              <span class="M2">Reversed</span><br />
+              Greed, Indulgence, Sensuality
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/37.png">
+            <p>
+              <span class="H">QUEEN OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Practicality, Creature Comforts, Financial Security
+              <br />
+              <span class="M2">Reversed</span><br />
+              Self-Centeredness, Jealousy, Smothering
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/38.png">
+            <p>
+              <span class="H">KNIGHT OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Efficiency, Hard Work, Responsibilty
+              <br />
+              <span class="M2">Reversed</span><br />
+              Laziness, Obsessiveness, Work Without Reward
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/39.png">
+            <p>
+              <span class="H">PAGE OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Ambition, Desire, Diligence
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Commitment, Greed, Laziness
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/40.png">
+            <p>
+              <span class="H">X OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Legacy, Culmination, Inheritance
+              <br />
+              <span class="M2">Reversed</span><br />
+              Fleeting Success, Lack Of Stability
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/41.png">
+            <p>
+              <span class="H">IX OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Fruits Of Labour, Rewards, Luxury
+              <br />
+              <span class="M2">Reversed</span><br />
+              Reckless Spending, Living Beyond Means, False Success
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/42.png">
+            <p>
+              <span class="H">VIII OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Apprenticeship, Passion, High Standards
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Passion, Uninspired, No Motivation
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/43.png">
+            <p>
+              <span class="H">VII OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Hard Work, Perseverance, Diligence
+              <br />
+              <span class="M2">Reversed</span><br />
+              Work Without Results, Distractions, Lack Of Rewards
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/44.png">
+            <p>
+              <span class="H">VI OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Charity, Generosity, Sharing
+              <br />
+              <span class="M2">Reversed</span><br />
+              Strings Attached, Power And Domination
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/45.png">
+            <p>
+              <span class="H">V OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Need, Poverty, Insecurity
+              <br />
+              <span class="M2">Reversed</span><br />
+              Recovery, Charity, Improvement
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/46.png">
+            <p>
+              <span class="H">IV OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Conservation, Frugality, Security
+              <br />
+              <span class="M2">Reversed</span><br />
+              Greed, Stinginess, Possessiveness
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/47.png">
+            <p>
+              <span class="H">III OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Teamwork, Collaboration, Building
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Teamwork, Disorganised, Group Conflict
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/48.png">
+            <p>
+              <span class="H">II OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Balancing Decisions, Priorities, Adapting To Change
+              <br />
+              <span class="M2">Reversed</span><br />
+              Loss Of Balance, Disorganised, Overwhelmed
+            </p>
+          </div>
+          <div class="item filter2"><img class="tarot" src="GTT/49.png">
+            <p>
+              <span class="H">ACE OF PENTACLES</span><br />
+              <span class="M1">Upright</span><br />
+              Opportunity, Prosperity, New Venture
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lost Opportunity, Missed Chance, Bad Investment
+            </p>
+          </div>
+        </div>
+        <!--Wand END-->
+
+        <!--Cups START-->
+        <div class="CUPS">
+          <div class="item filter3"><img class="tarot" src="GTT/50.png">
+            <p>
+              <span class="H">KING OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Head Over Heart, Discipline, Truth
+              <br />
+              <span class="M2">Reversed</span><br />
+              Manipulative, Cruel, Weakness
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/51.png">
+            <p>
+              <span class="H">QUEEN OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Complexity, Perceptiveness, Clear Mindedness
+              <br />
+              <span class="M2">Reversed</span><br />
+              Cold Hearted, Cruel, Bitterness
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/52.png">
+            <p>
+              <span class="H">KNIGHT OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Action, Impulsiveness, Defending Beliefs
+              <br />
+              <span class="M2">Reversed</span><br />
+              No Direction, Disregard Of Consequences, Unpredictability
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/53.png">
+            <p>
+              <span class="H">PAGE OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Curiosity, Restlessness, Mental Energy
+              <br />
+              <span class="M2">Reversed</span><br />
+              Deception, Manipulation, All Talk
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/54.png">
+            <p>
+              <span class="H">X OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Failure, Collapse, Defeat
+              <br />
+              <span class="M2">Reversed</span><br />
+              Can't Get Worse, Only Upwards, Inevitable End
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/55.png">
+            <p>
+              <span class="H">IX OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Anxiety, Hopelessness, Trauma
+              <br />
+              <span class="M2">Reversed</span><br />
+              Hope, Reaching Out, Despair
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/56.png">
+            <p>
+              <span class="H">VIII OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Imprisonment, Entrapment, Self-Victimisation
+              <br />
+              <span class="M2">Reversed</span><br />
+              Self-Acceptance, New Perspective, Freedom
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/57.png">
+            <p>
+              <span class="H">VII OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Deception, Trickery, Tactics And Strategy
+              <br />
+              <span class="M2">Reversed</span><br />
+              Coming Clean, Rethinking Approach, Deception
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/58.png">
+            <p>
+              <span class="H">VI OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Transition, Leaving Behind, Moving On
+              <br />
+              <span class="M2">Reversed</span><br />
+              Emotional Baggage, Unresolved Issues, Resisting Transition
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/59.png">
+            <p>
+              <span class="H">V OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Unbridled Ambition, Win At All Costs, Sneakiness
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lingering Resentment, Desire To Reconcile, Forgiveness
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/60.png">
+            <p>
+              <span class="H">IV OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Rest, Restoration, Contemplation
+              <br />
+              <span class="M2">Reversed</span><br />
+              Restlessness, Burnout, Stress
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/61.png">
+            <p>
+              <span class="H">III OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Heartbreak, Suffering, Grief
+              <br />
+              <span class="M2">Reversed</span><br />
+              recovery, Forgiveness, Moving On
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/62.png">
+            <p>
+              <span class="H">II OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Difficult Choices, Indecision, Stalemate
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lesser Of Two Evils, No Right Choice, Confusion
+            </p>
+          </div>
+          <div class="item filter3"><img class="tarot" src="GTT/63.png">
+            <p>
+              <span class="H">ACE OF SWORDS</span><br />
+              <span class="M1">Upright</span><br />
+              Breakthrough, Clarity, Sharp Mind
+              <br />
+              <span class="M2">Reversed</span><br />
+              Confusion, Chaos, Brutality
+            </p>
+          </div>
+        </div>
+        <!--Cups END-->
+
+        <!--Pentacles START-->
+        <div class="PENT">
+          <div class="item filter4"><img class="tarot" src="GTT/64.png">
+            <p>
+              <span class="H">KING OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Big Picture, Leader, Overcoming Challenges
+              <br />
+              <span class="M2">Reversed</span><br />
+              Impulsive, Overbearing, Unachievable Expectations
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/65.png">
+            <p>
+              <span class="H">QUEEN OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Courage, Determination, Joy
+              <br />
+              <span class="M2">Reversed</span><br />
+              Sedlfishness, Jealousy, Insecurities
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/66.png">
+            <p>
+              <span class="H">KNIGHT OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Action, Adventure, Fearlessness
+              <br />
+              <span class="M2">Reversed</span><br />
+              Anger, Impulsiveness, Recklessness
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/67.png">
+            <p>
+              <span class="H">PAGE OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Exploration, Excitement, Freedom
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Discretion, Procrastination, Creating Conflict
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/68.png">
+            <p>
+              <span class="H">X OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Accomplishment, Responsibilty, Burden
+              <br />
+              <span class="M2">Reversed</span><br />
+              Inability To Delegate, Overstressed, Burnt Out
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/69.png">
+            <p>
+              <span class="H">IX OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Resilience, Grit, Lat Stand
+              <br />
+              <span class="M2">Reversed</span><br />
+              Exhaustion, Fatigue, Questioning Motivations
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/70.png">
+            <p>
+              <span class="H">VIII OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Rapid Action, Movement, Quick Decisions
+              <br />
+              <span class="M2">Reversed</span><br />
+              Panic, Waiting, Slowdown
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/71.png">
+            <p>
+              <span class="H">VII OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Perseverance, Defensive, Maintaining Control
+              <br />
+              <span class="M2">Reversed</span><br />
+              Give Up, Destroyed Confidence, Overwhelmed
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/72.png">
+            <p>
+              <span class="H">VI OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Victory, Success, Public Reward
+              <br />
+              <span class="M2">Reversed</span><br />
+              Excess Pride, Lack Of Recognition, Punishment
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/73.png">
+            <p>
+              <span class="H">V OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Competiton, Rivalry, Conflict
+              <br />
+              <span class="M2">Reversed</span><br />
+              Avoiding Conflict, Respecting Differences
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/74.png">
+            <p>
+              <span class="H">IV OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Community, Home, Celebration
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Support, Transience, Home Conflicts
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/75.png">
+            <p>
+              <span class="H">III OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Looking Ahead, Expansion, Rapid Growth
+              <br />
+              <span class="M2">Reversed</span><br />
+              Obstacles, Delays, Frustration
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/76.png">
+            <p>
+              <span class="H">II OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Planning, Making Decisions, Leaving Home
+              <br />
+              <span class="M2">Reversed</span><br />
+              Fear Of Change, Playing Safe, Bad Planning
+            </p>
+          </div>
+          <div class="item filter4"><img class="tarot" src="GTT/77.png">
+            <p>
+              <span class="H">ACE OF WANDS</span><br />
+              <span class="M1">Upright</span><br />
+              Creation, Willpower, Inspiration, Desire
+              <br />
+              <span class="M2">Reversed</span><br />
+              Lack Of Energy, Lack Of Passion, Boredom
+            </p>
+          </div>
+        </div>
+        <!--Pentacles END-->
+      </div>
+      <!--Tarot deck-->
+      <!-- S=C,W=P -->
+    </div>
+
+    <!--JS file-->
+      <script src="js/td_script.js"></script>
+    <!--end-->
+
+  </body>
+
+</html>

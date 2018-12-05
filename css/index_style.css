@@ -1,0 +1,352 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.fade-in {
+  animation: animationFrames ease 2s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards;
+  -webkit-animation: animationFrames ease 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animationFrames {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  width: 6px;
+  background: -webkit-linear-gradient(bottom, rgba(0, 78, 69, 1), rgba(52, 196, 173, 1));
+}
+
+* {
+  cursor: url("../Images/mouse-arrow.png"), pointer;
+}
+
+body {
+  color: #3d3536;
+  background-color: #fff;
+}
+
+.fixed-bg {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+.maintitle {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 200px;
+  color: #fff;
+  padding: 0px;
+}
+
+.subtitle {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 100px;
+  color: #fff;
+}
+
+.fixed-bg-content, .fbgtitle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 120px;
+  font-family: 'Bigelow Rules', cursive;
+}
+
+.fbgtitle2 {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 120px;
+  font-family: 'Bigelow Rules', cursive;
+  color: #fff;
+}
+
+.fbgtitle {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.fixed-bg.fixed-bg-1 {
+  background-image: url("../Images/blossom.jpg");
+}
+
+.fixed-bg.fixed-bg-2 {
+  background-image: url("../Images/flameflowers.jpg");
+}
+
+.fixed-bg.fixed-bg-3 {
+  background-image: url("../Images/flameflowers.jpg");
+}
+
+.fixed-bg.fixed-bg-4 {
+  background-image: url("../Images/flameflowers.jpg")
+}
+
+@media only screen and (min-width: 1170px) {
+  @supports (background-attachment: fixed) {
+    .fixed-bg {
+      background-attachment: fixed;
+    }
+  }
+}
+
+.scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.scrolling-bg.scrolling-bg-c1 {
+  background-color: #3d3536;
+  color: #a6989a;
+}
+
+.scrolling-bg.scrolling-bg-c2 {
+  background-color: #3d3536;
+  color: #a6989a;
+}
+
+.scrolling-bg.scrolling-bg-c3 {
+  background-color: #3d3536;
+  color: #a6989a;
+}
+
+.scrolling-bg.scrolling-bg-c4 {
+  background-color: #3d3536;
+  color: #a6989a;
+}
+
+.scrolling-bg-content {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-family: 'Unica One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .scrolling-bg-content {
+    width: 70%;
+  }
+}
+
+a.button {
+  cursor: url("../Images/mouse-arrow.png"), pointer;
+  width: 200px;
+  height: 50px;
+  color: #101010;
+  font-family: 'Abel', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a.button.abt {
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+  background: #34c4ad;
+}
+
+a.button.cms {
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+  background: #34c4ad;
+}
+
+a.button:hover {
+  color: #101010;
+  background: #ffca44;
+  transition: .5s;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.icon-bar ul li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.fab {
+  font-size: 30px;
+  color: #fff;
+  padding: 0;
+  cursor: url("../Images/pointer.png"), pointer;
+}
+
+.fab:hover {
+  transition: .5s;
+}
+
+.fa-twitter:hover {
+  color: #38A1F3;
+}
+
+.fa-instagram:hover {
+  color: #fcaf45;
+}
+
+.fa-facebook-square:hover {
+  color: #3B5998;
+}
+
+.fa-pinterest:hover {
+  color: #bd081c;
+}
+
+.fa-discord:hover {
+  color: #7289da;
+}
+
+@media (max-width: 768px) {
+  .icon-bar {
+    opacity: 0;
+  }
+
+  .icon-bar:hover {
+    opacity: 1;
+    transition: 1s;
+    left: 0;
+  }
+
+  .fab {
+    font-size: 25px;
+  }
+}
+
+.tooltip {
+  display: inline;
+  position: relative;
+}
+
+.tooltip:hover:after {
+  background-color: : #ffffff;
+  background: rgba(52, 196, 173, .9);
+  border-radius: 5px;
+  bottom: 26px;
+  color: #000;
+  content: attr(data-title);
+  left: 100%;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  font-family: 'Unica One', cursive;
+}

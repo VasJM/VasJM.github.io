@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--font links-->
+      <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <!--end-->
+
+    <!-- CSS and jQuery links-->
+      <link rel="stylesheet" href="css/contact_style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--end-->
+
+    <!--favicon-->
+      <link rel="shortcut icon" type="image/ico" href="Icons/faviconheart.ico" />
+    <!--end-->
+
+    <title>Contact Form</title>
+
+  </head>
+
+  <body class="fade-in">
+
+    <a id="home" href="C:\Users\Vasundhara\Desktop\HEKATE\Main\index.html">
+      <span class="tooltip" data-title="Home">
+        <img class="home" src="Images/home.png">
+      </span>
+    </a>
+
+    <form class="form floating-labels">
+      <div class="pt1">
+        <label class="label">Personal Info</label>
+
+        <div class="icon">
+          <label class="label" for="name">Name</label>
+          <input class="user" type="text" name="name" id="name" required>
+        </div>
+
+        <div class="icon">
+          <label class="label" for="email">Email</label>
+          <input class="email error" type="email" name="email" id="email" required>
+        </div>
+      </div>
+
+      <div class="pt2">
+        <label class="label">Your Query</label>
+
+        <div class="icon">
+          <label class="label" for="textarea">Message</label>
+          <textarea class="message" name="textarea" id="textarea" required></textarea>
+        </div>
+      </div>
+      <div>
+        <input type="submit" value="Send Message">
+      </div>
+
+    </form>
+
+    <!--JS file-->
+      <script src="js/contact_script.js"></script>
+    <!--end-->
+
+  </body>
+
+</html>
