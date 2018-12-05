@@ -98,14 +98,14 @@ html {
 }
 
 * {
-  cursor: url("../Images/mouse-arrow.png"), pointer;
+  cursor: url("ImagesAbt/mouse-arrow.png"), pointer;
 }
 
 #scroll {
   position: fixed;
   right: 2px;
   bottom: 10px;
-  cursor: url("../Images/mouse-arrow.png"), pointer;
+  cursor: url("ImagesAbt/mouse-arrow.png"), pointer;
   width: 45px;
   height: 45px;
   background-color: #67beab;
@@ -170,7 +170,7 @@ img.vashome:hover {
 }
 
 .fixed-bg.fixed-bg-1 {
-  background-image: url("../Images/flameflowers.jpg");
+  background-image: url("ImagesAbt/flameflowers.jpg");
 }
 
 .fixed-bg-content {
@@ -228,7 +228,7 @@ img.vashome:hover {
 }
 
 .row {
-  background-image: url("../Images/flameflowers2.png");
+  background-image: url("ImagesAbt/flameflowers2.png");
 }
 
 .title {
