@@ -98,7 +98,7 @@ html {
 }
 
 * {
-  cursor: url("../Images/mouse-arrow.png"), pointer;
+  cursor: url("img_index/mouse-arrow.png"), pointer;
 }
 
 body {
@@ -165,19 +165,19 @@ body {
 }
 
 .fixed-bg.fixed-bg-1 {
-  background-image: url("../Images/blossom.jpg");
+  background-image: url("img_index/blossom.jpg");
 }
 
 .fixed-bg.fixed-bg-2 {
-  background-image: url("../Images/flameflowers.jpg");
+  background-image: url("img_index/flameflowers.jpg");
 }
 
 .fixed-bg.fixed-bg-3 {
-  background-image: url("../Images/flameflowers.jpg");
+  background-image: url("img_index/flameflowers.jpg");
 }
 
 .fixed-bg.fixed-bg-4 {
-  background-image: url("../Images/flameflowers.jpg")
+  background-image: url("img_index/flameflowers.jpg")
 }
 
 @media only screen and (min-width: 1170px) {
@@ -237,7 +237,7 @@ body {
 }
 
 a.button {
-  cursor: url("../Images/mouse-arrow.png"), pointer;
+  cursor: url("img_index/mouse-arrow.png"), pointer;
   width: 200px;
   height: 50px;
   color: #101010;
@@ -288,7 +288,7 @@ a.button:hover {
   font-size: 30px;
   color: #fff;
   padding: 0;
-  cursor: url("../Images/pointer.png"), pointer;
+  cursor: url("img_index/pointer.png"), pointer;
 }
 
 .fab:hover {
