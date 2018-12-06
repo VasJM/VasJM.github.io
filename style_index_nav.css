@@ -70,7 +70,6 @@ nav {
 }
 
 @media (max-width: 800px) {
-
   .nav-tab {
     display: none;
   }
