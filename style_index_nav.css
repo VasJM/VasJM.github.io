@@ -96,4 +96,23 @@ nav {
   .logo {
     display: none;
   }
+
+  .tooltip-nav {
+    display: inline;
+    position: relative;
+  }
+
+  .tooltip-nav:hover:after {
+    background: rgba(230, 88, 87, .9);
+    border-radius: 5px;
+    top: 30px;
+    color: #000;
+    content: attr(data-title);
+    right: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    font-family: 'Unica One', cursive;
+  }
 }
