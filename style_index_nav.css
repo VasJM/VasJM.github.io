@@ -73,6 +73,10 @@ nav {
     display: none;
   }
 
+  .site-nav ul li {
+    padding: 12px;
+  }
+
   .fas {
     display: inline;
     font-size: 28px;
