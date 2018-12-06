@@ -73,7 +73,7 @@ nav {
     display: none;
   }
 
-  .site-nav ul li {
+  .site-nav ul li a {
     padding: 12px;
   }
 
