@@ -121,7 +121,7 @@ nav {
 
 @media (max-width: 200px) {
   .site-nav ul li {
-    padding: 8px;
+    padding: 3px;
   }
 
   .fas {
