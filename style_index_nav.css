@@ -118,3 +118,8 @@ nav {
     font-size: 15px;
   }
 }
+ @media (max-width: 300px) {
+   .site-nav ul li {
+     padding: 8px;
+   }
+ }
