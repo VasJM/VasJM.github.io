@@ -73,6 +73,10 @@ nav {
     height: 90px;
   }
 
+  .container_nav {
+    width: 90%;
+  }
+
   .site-nav ul li a {
     padding: 2px;
   }
