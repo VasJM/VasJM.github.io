@@ -69,6 +69,14 @@ nav {
 }
 
 @media (max-width: 800px) {
+  header {
+    height: 90px;
+  }
+
+  .site-nav ul li a {
+    padding: 2px;
+  }
+
   .nav-tab {
     display: none;
   }
@@ -77,6 +85,12 @@ nav {
     display: inline;
     font-size: 28px;
     text-align: center;
+  }
+
+  .nav_bot {
+    font-family: 'Unica One', sans-serif;
+    position: relative;
+    font-size: 15px;
   }
 
   .site-nav ul li a:hover {
