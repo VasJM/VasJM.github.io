@@ -164,20 +164,6 @@ body {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  .maintitle {
-    font-size: 150px;
-  }
-
-  .subtitle {
-    font-size: 70px;
-  }
-
-  .fbgtitle, .fbgtitle2 {
-    font-size: 70px;
-  }
-}
-
 .fixed-bg.fixed-bg-1 {
   background-image: url("img_index/blossom.jpg");
 }

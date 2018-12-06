@@ -70,6 +70,7 @@ nav {
 }
 
 @media (max-width: 800px) {
+<<<<<<< HEAD
   header {
     height: 90px;
   }
@@ -85,6 +86,8 @@ nav {
     padding: 0px;
   }
 
+=======
+>>>>>>> parent of 0fc11f0... nav and titles
   .nav-tab {
     display: none;
   }
@@ -93,12 +96,6 @@ nav {
     display: inline;
     font-size: 28px;
     text-align: center;
-  }
-
-  .nav_bot {
-    font-family: 'Unica One', sans-serif;
-    position: relative;
-    font-size: 15px;
   }
 
   .site-nav ul li a:hover {
