@@ -29,6 +29,7 @@ nav {
   width: auto;
   border-radius: 40px;
   margin-top: 6px;
+  margin-left: 100px;
 }
 
 .logo img:hover {
@@ -79,7 +80,7 @@ nav {
     width: 100%;
     padding: 0;
   }
-  
+
   .site-nav ul li a {
     padding: 0px;
   }
@@ -90,14 +91,14 @@ nav {
 
   .fas {
     display: inline;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
   }
 
   .nav_bot {
     font-family: 'Unica One', sans-serif;
     position: relative;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .site-nav ul li a:hover {
