@@ -123,4 +123,8 @@ nav {
   .site-nav ul li {
     padding: 8px;
   }
+
+  .fas {
+    font-size: 22px;
+  }
 }
