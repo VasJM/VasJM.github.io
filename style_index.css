@@ -94,7 +94,7 @@ html {
 
 ::-webkit-scrollbar-thumb:vertical {
   width: 6px;
-  background: -webkit-linear-gradient(top, rgba(255,39,49,1), rgba(255,89,87,1));
+  background: -webkit-linear-gradient(bottom, rgba(255,39,49,1), rgba(255,89,87,1));
 }
 
 * {
