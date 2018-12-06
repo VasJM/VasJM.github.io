@@ -69,12 +69,12 @@ nav {
 }
 
 @media (max-width: 800px) {
-  .nav-tab {
-    display: none;
+  header {
+    min-width: 200px;
   }
 
-  .site-nav ul li {
-    padding: 12px;
+  .nav-tab {
+    display: none;
   }
 
   .fas {
