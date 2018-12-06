@@ -91,6 +91,7 @@ nav {
   .fas:hover {
     background: none;
     color: #e65857;
+    transition: .5s;
   }
 
   .logo {
@@ -103,7 +104,7 @@ nav {
   }
 
   .tooltip-nav:hover:after {
-    background: rgba(230, 88, 87, .9);
+    background: rgba(230, 88, 87, .8);
     border-radius: 5px;
     top: 30px;
     color: #000;
