@@ -70,24 +70,7 @@ nav {
 }
 
 @media (max-width: 800px) {
-<<<<<<< HEAD
-  header {
-    height: 90px;
-  }
 
-  .container_nav {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    padding: 0 5px 0 5px;
-  }
-
-  .site-nav ul li a {
-    padding: 0px;
-  }
-
-=======
->>>>>>> parent of 0fc11f0... nav and titles
   .nav-tab {
     display: none;
   }
